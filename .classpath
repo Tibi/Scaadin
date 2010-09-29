@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/scala"/>
+	<classpathentry kind="src" path="src/test/scala"/>
+	<classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/sbt_2.7.7-0.7.4.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0/compile/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0/compile/slf4j-simple-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0/compile/slf4s_2.8.0-1.0.0.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.8.0/compile/vaadin-6.4.3.jar"/>
+	<classpathentry kind="output" path="target/scala_2.8.0/classes"/>
+</classpath>

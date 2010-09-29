@@ -1,0 +1,12 @@
+syntax: glob
+
+.scala_dependencies
+
+# sbt stuff
+target/
+lib_managed/
+src_managed/
+project/boot/
+
+db
+**.log
