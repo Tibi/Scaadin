@@ -59,3 +59,8 @@ class SLongField(title: String) extends TextField(title) {
 class SIntField(title: String) extends TextField(title) {
   def value = toInt(getValue)
 }
+
+class SCheckBox(title: String) extends CheckBox(title) {
+  def isChecked = getValue.asInstanceOf[Boolean]
+  def value = isChecked
+}
