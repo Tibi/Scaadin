@@ -1,13 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src/main/scala"/>
-	<classpathentry kind="src" path="src/test/scala"/>
-	<classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
-	<classpathentry kind="lib" path="project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/sbt_2.7.7-0.7.4.jar"/>
-	<classpathentry kind="lib" path="lib_managed/scala_2.8.0/compile/slf4j-api-1.6.1.jar"/>
-	<classpathentry kind="lib" path="lib_managed/scala_2.8.0/compile/slf4j-simple-1.6.1.jar"/>
-	<classpathentry kind="lib" path="lib_managed/scala_2.8.0/compile/slf4s_2.8.0-1.0.0.jar"/>
-	<classpathentry kind="lib" path="lib_managed/scala_2.8.0/compile/vaadin-6.4.3.jar"/>
-	<classpathentry kind="output" path="target/scala_2.8.0/classes"/>
+  <classpathentry output=".target\scala-2.9.1\classes" path="src\main\scala" kind="src"></classpathentry>
+  <classpathentry output=".target\scala-2.9.1\test-classes" path="src\test\scala" kind="src"></classpathentry>
+  <classpathentry path="C:\Users\Tibi\.ivy2\cache\com.vaadin\vaadin\jars\vaadin-6.7.2.jar" kind="lib"></classpathentry>
+  <classpathentry path="org.scala-ide.sdt.launching.SCALA_CONTAINER" kind="con"></classpathentry>
+  <classpathentry path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6" kind="con"></classpathentry>
+  <classpathentry path=".target\scala-2.9.1\classes" kind="output"></classpathentry>
 </classpath>
